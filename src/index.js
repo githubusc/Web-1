@@ -13,7 +13,7 @@ import ReactDOM from 'react-dom';
 /*---------------------------
 | Components
 ---------------------------*/
-import Homework from './React/Homework.jsx';
+import App from './React/App.jsx';
 
 /*---------------------------
 | Global Styles
@@ -24,4 +24,4 @@ import 'React/common/styles/global.scss';
 /*---------------------------
 | Render to DOM
 ---------------------------*/
-ReactDOM.render(<Homework />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
