@@ -14,7 +14,7 @@ const Essays = () => {
             </Essay>
             <Essay q="S3: Explain the difference between HTML, CSS and JS." >
                 <ul>
-                    <li>HTML: Mark Up Language for tag based hierarchy and semantic definition.</li>>
+                    <li>HTML: Mark Up Language for tag based hierarchy and semantic definition.</li>
                     <li>CSS: The Skin (Appearance / Visual Asethetics), CSS Selectors -- to select html elements. </li>
                     <li>JS: Programming language for Interactive Features of the site (Behavior) Slideshows, scrolling, </li>
                 </ul>
