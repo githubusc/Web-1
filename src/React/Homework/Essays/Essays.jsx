@@ -25,7 +25,7 @@ const Essays = () => {
                     <li>Faster load time, more efficient.</li>
                 </ul>
             </Essay>
-            <Essay q="S5: S5: What is the difference between Web Designer, Front End Developer and Back End develper?" >
+            <Essay q="S5: What is the difference between Web Designer, Front End Developer and Back End develper?" >
                 <ul>
                     <li>Answer</li>
                 </ul>

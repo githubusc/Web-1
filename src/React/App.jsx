@@ -1,20 +1,24 @@
 import React from 'react';
 import styled from 'styled-components';
+import { BrowserRouter } from 'react-router-dom';
+
 import Header from './Layout/Header';
-import Nav from './Layout/Nav';
+import Nav from './Layout/Nav/Nav';
 import Main from './Layout/Main';
 import Footer from './Layout/Footer';
 
 const App = () => {
 
     return (
-        <AppStyled className='App'>
-            App
-            <Header />
-            <Nav />
-            <Main />
-            <Footer />
-        </AppStyled>
+        <BrowserRouter>
+            <AppStyled className='App'>
+                App
+                <Header />
+                <Nav />
+                <Main />
+                <Footer />
+            </AppStyled>
+        </BrowserRouter>
     );
 }
 
