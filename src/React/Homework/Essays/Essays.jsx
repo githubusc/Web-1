@@ -27,6 +27,13 @@ const Essays = () => {
             </Essay>
             <Essay q="S5: What is the difference between Web Designer, Front End Developer and Back End develper?" >
                 <ul>
+                    <li><b>Web Designer:</b> A Web Designer is responsible for designing the overall layout and aesthetic for websites. Their duties include coding webpages or entire websites, meeting with clients to review website templates, mockups or refine their designs and running tests to preview layouts and website features.</li>
+                    <li><b>Front-End Developer:</b> Front-end development is programming that focuses on the visual elements of a website or app that a user will interact with (the client-side). Front-end developers are responsible for implementing visual components on a website as well as interactive features like navigation, buttons, or anything that enhances overall usability. HTML, JavaScript, and CSS are often used to make sure the visual side (or client-side) of a site runs smoothly so that users can interact freely and comfortably with it. </li>
+                    <li><b>Back-End Developer:</b> Back-end development focuses on data, modeling and the back side of website users can’t see (the server-side). The back-end developer is a programmer who creates components and features on the server-side, indirectly accessed by a user through a front-end application or system. These developers are tasked with creating, maintaining, testing, and debugging the entire back end. This includes the core application logic, databases, data and application integration, API, and other processes taking place behind the scenes. </li>
+                </ul>
+            </Essay>
+            <Essay q="S6: Distinguish the difference between Site Relative, Document Relative, and Absolute Paths?" >
+                <ul>
                     <li>Answer</li>
                 </ul>
             </Essay>
