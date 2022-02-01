@@ -6,6 +6,7 @@ import Essays from "./Essays/Essays";
 const Homework = () => {
     return (
         <HomeworkStyled>
+            <h1>Homework</h1>
             <SunAndMoon />
             <Essays />
         </HomeworkStyled>
@@ -15,6 +16,6 @@ const Homework = () => {
 export default Homework;
 
 const HomeworkStyled = styled.div`
-    background-color: pink;
-    padding: 20px;
+    // background-color: pink;
+    // padding: 20px;
 `;
