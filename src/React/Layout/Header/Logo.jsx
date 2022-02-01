@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import SiteLogo from 'React/common/SiteLogo';
+
 const Logo = () => {
 
     return (
         <LogoStyled className='Logo'>
-            Logo 
+            <SiteLogo /> 
         </LogoStyled>
     );
 }

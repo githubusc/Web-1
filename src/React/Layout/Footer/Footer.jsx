@@ -7,8 +7,8 @@ const Footer = () => {
 
     return (
         <FooterStyled className='Footer'>
-            <SiteTitle />
             <Logo />
+            <SiteTitle />
         </FooterStyled>
     );
 }

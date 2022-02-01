@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import SiteLogo from 'React/common/SiteLogo';
 const Logo = () => {
 
     return (
         <LogoStyled className='Logo'>
-            Logo 
+            <SiteLogo />
         </LogoStyled>
     );
 }
@@ -13,5 +14,7 @@ const Logo = () => {
 export default Logo;
 
 const LogoStyled = styled.div`
-    
+    svg.hot-tub-icon {
+        width: 30px;
+    }
 `;
