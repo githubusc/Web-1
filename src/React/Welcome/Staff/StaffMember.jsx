@@ -20,12 +20,12 @@ const StaffMemberStyled = styled.div`
     width: 45%;
     margin: 5px;
 
-    @media $(defaultMediaQueries.mdUp) {
+    @media ${defaultMediaQueries.mdUp} {
         width: 30%;
         margin: 15px;
     }
 
-    @media $(defaultMediaQueries.lgUp) {
+    @media ${defaultMediaQueries.lgUp} {
         width: 20%;
         margin: 20px;
     }
