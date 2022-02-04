@@ -34,6 +34,13 @@ const Essays = () => {
             </Essay>
             <Essay q="S6: Distinguish the difference between Site Relative, Document Relative, and Absolute Paths?" >
                 <ul>
+                    <li><b>Site Relative:</b> URL from the root of the website.</li>
+                    <li><b>Document Relative:</b> Link to resources relative to the document writing </li>
+                    <li><b>Absolute Path:</b> Fully resolved URL to a resource.</li>
+                </ul>
+            </Essay>
+            <Essay q="S7: What is the difference between jpg, gif, png and SVG images?" >
+                <ul>
                     <li>Answer</li>
                 </ul>
             </Essay>
