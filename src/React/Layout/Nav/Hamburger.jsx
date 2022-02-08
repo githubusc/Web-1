@@ -7,10 +7,14 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 
-const Hamburger = () => {
+const Hamburger = ({showMenu, showMenuUpdate}) => {
+
+    const clickHandler = () => {
+        showMenuUpdate(!showMenu);
+    }
 
     return (
-        <HamburgerStyled className='Hamburger'>
+        <HamburgerStyled className='Hamburger' onClick={ clickHandler }>
             <FontAwesomeIcon icon={ faBars } /> 
         </HamburgerStyled>
     );
