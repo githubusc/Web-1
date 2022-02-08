@@ -47,7 +47,7 @@ const Essays = () => {
                     <li><b>SVG:</b>Scalabe Vector Graphics: Animation, Lighter files due to vector, can also add images if necessary, without images scale without loss of quality. </li>
                 </ul>
             </Essay>
-            <Essay q="S8: " >
+            <Essay q="S8: Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps." >
                 <ul>
                     <li>Answer</li>
                 </ul>
