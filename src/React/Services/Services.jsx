@@ -1,16 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import ServiceGallery from './ServiceGallery/ServiceGallery';
-import ServiceMenu from './ServiceMenu/ServiceMenu';
+/* Components ---------------------------*/
+import ServiceGallery from './ServiceGallery/ServiceGallery.jsx';
+import ServiceMenu from './ServiceMenu/ServiceMenu.jsx';
+
+/* Scripts ---------------------------*/
+import { servicesData } from './servicesData';
 
 const Services = () => {
 
     return (
         <ServicesStyled className='Services'>
             <h1>Services</h1>
-            <ServiceMenu />
-            <ServiceGallery />
+            <ServiceMenu categories={ servicesData.categories }/>
+            <ServiceGallery services={ servicesData.services }/>
         </ServicesStyled>
     );
 }
