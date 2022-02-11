@@ -20,5 +20,7 @@ const ServiceGallery = ({services}) => {
 export default ServiceGallery;
 
 const ServiceGalleryStyled = styled.div`
-    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 `;
