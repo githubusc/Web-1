@@ -49,6 +49,18 @@ const Essays = () => {
             </Essay>
             <Essay q="S8: Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps." >
                 <ul>
+                    <li><b>Project Manager: </b>Responsible for the entire project. Scope / goals, and orchestrating the team to meet deadlines. </li>
+                    <li><b>Business Analyst: </b>Works with client to defined deliverables, understanding clients. They make the promises.</li>
+                    <li><b>Scrum Master: </b>Manages the agile process, unlocking teams and keeping the ball moving forward.</li>
+                    <li><b>UX Designer: </b>User Experience Designer: Design user stories, characters to visually implement the site.</li>
+                    <li><b>Web Developer / Engineer: </b>Builds and maintains the website/ Translating UX Designs.</li>
+                    <li><b>Quality Assurance Tester: </b>Test and find bugs in the app, working with developers to resolve before release. Automated testing.</li>
+                    <li><b>DeOps: </b>Managing hardware and deployment of software.</li>
+                    
+                </ul>
+            </Essay>
+            <Essay q="S9: " >
+                <ul>
                     <li>Answer</li>
                 </ul>
             </Essay>
