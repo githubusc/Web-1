@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 
 /* Components ---------------------------*/
@@ -10,11 +10,13 @@ import { servicesData } from './servicesData';
 
 const Services = () => {
 
+    const [chosenCategory, chosenCategoryUpdate] = useState('All');
+    console.log('chosenCategory', chosenCategory);
     return (
         <ServicesStyled className='Services'>
             <h1>Services</h1>
-            <ServiceMenu categories={ servicesData.categories }/>
-            <ServiceGallery services={ servicesData.services }/>
+            <ServiceMenu categories={ servicesData.categories } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate }/>
+            <ServiceGallery services={ servicesData.services } chosenCategory={ chosenCategory }/>
         </ServicesStyled>
     );
 }
