@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 
 import Dark from './Dark';
@@ -6,13 +6,30 @@ import Light from './Light/Light';
 
 const Modal = ({title, modalContent, showModalUpdate}) => {
 
+    useEffect(() => {
+        const handleOnKeyDown = (e) => {
+            console.log("What key was pressed", e.keyCode);
+
+            if(e.keyCode === 27) {
+                closeModal();
+            }
+        }
+
+        document.addEventListener("keydown", handleOnKeyDown);
+
+        // dismounts
+        return () => {
+            document.removeEventListener("keydown", handleOnKeyDown);
+        }
+    }, []);
+    
     const closeModal = () => {
         showModalUpdate(false);
     }
     return (
-        <ModalStyled className='Modal' onClick={ closeModal }>
-            <Dark />
-            <Light title={title} modalContent={modalContent}/>
+        <ModalStyled className='Modal' >
+            <Dark closeModal={ closeModal }/>
+            <Light closeModal={ closeModal } title={title} modalContent={modalContent} />
             
             
         </ModalStyled>
