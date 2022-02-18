@@ -8,7 +8,6 @@ const ActiveArea = ({activeContent, showModalUpdate}) => {
     }
     return (
         <ActiveAreaStyled className='ActiveArea' onClick={ clickHandler }>
-            ActiveArea
             { activeContent } 
         </ActiveAreaStyled>
     );
