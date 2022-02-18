@@ -66,6 +66,13 @@ const Essays = () => {
             </Essay>
             <Essay q="S10: What does it mean for a company to be Agile? What are the pros and cons of being agile?" >
                 <ul>
+                    <li><b>Agigle Means: </b> Methodology allowing for more flexible rapid sprints -- using an interactive process. Adjust and change requirementsas they shift in real time.</li>
+                    <li><b>Pros: </b>(1). Revisit: Revisits and rewrites of steps are encouraged to achieve the desired results. (2). Testing: Agile projects tasks are tested in flight, allowing for faster delivery and a better project. (3). Customer: Frequent delivery allows for quick changes in project direction while maintaining project scope.</li>
+                    <li><b>Cons: </b>(1). Starting: Agile doesn’t set a strict schedule, which, if not managed, can be difficult under a tight deadline. (2).Finish line: Changing project requirements may cause problems in other areas of the organization. (3). Reliance: Agile requires a consistent team. A weak link in the Agile team or management could result in wasted time and money.</li>
+                </ul>
+            </Essay>
+            <Essay q="S11: " >
+                <ul>
                     <li>Answer</li>
                 </ul>
             </Essay>
