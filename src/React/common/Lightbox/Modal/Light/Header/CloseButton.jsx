@@ -9,7 +9,7 @@ import {
 const CloseButton = ({closeModal}) => {
 
     return (
-        <CloseButtonStyled className='CloseButton' closeModal={closeModal}>
+        <CloseButtonStyled className='CloseButton' onClick={closeModal}>
             <FontAwesomeIcon icon={ faTimes } />
         </CloseButtonStyled>
     );
