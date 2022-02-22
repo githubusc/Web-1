@@ -71,9 +71,14 @@ const Essays = () => {
                     <li><b>Cons: </b>(1). Starting: Agile doesn’t set a strict schedule, which, if not managed, can be difficult under a tight deadline. (2).Finish line: Changing project requirements may cause problems in other areas of the organization. (3). Reliance: Agile requires a consistent team. A weak link in the Agile team or management could result in wasted time and money.</li>
                 </ul>
             </Essay>
-            <Essay q="S11: " >
+            <Essay q="S11: What are testing environments? What is the difference between Local, Dev, QA and Production?" >
+                <p>A Testing Environments is: Space developers deploy their work for testing their work.</p>
                 <ul>
-                    <li>Answer</li>
+                    <li><b>Local: </b>Developer's Machien -- to build and test your own code.</li>
+                    <li><b>Dev: </b>Dev Testing Server: Dev Paired Code reviews.</li>
+                    <li><b>QA: </b>Quality Assurance Testing Server for QA team.</li>
+                    <li><b>UAT: </b>User Acceptance Testing Server for Customer to test.</li>
+                    <li><b>Production: </b>Live website for users to access -- public domain.</li>
                 </ul>
             </Essay>
 
