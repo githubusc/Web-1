@@ -3,24 +3,26 @@ import styled from 'styled-components';
 
 /* Components ---------------------------*/
 import Lightbox from 'React/common/Lightbox/Lightbox';
+import UniversalForm, { Input, Textarea, SubmitButton } from 'React/common/UniversalForm/UniversalForm';
 
 const Contact = () => {
 
-    const ActiveContent = () => {
-        return <img src="/assets/img/moon.png" />;
-    }
-
-    const ModalContent = () => {
-        return <img src="/assets/img/sun.png" />;
-    }
     return (
         <ContactStyled className='Contact'>
             <h1>Contact</h1>
-            <Lightbox
-                title="Sun Pop Up"
-                activeContent={<ActiveContent />}
-                modalContent={<ModalContent />}
-            />
+            <UniversalForm>
+                <Input 
+                    label='Name'
+                    id='name'
+                    placeholder='Your Name'
+                />
+                <Textarea
+                    label='Message'
+                    id='message'
+                    placeholder='I was wondering about...'
+                />
+                <SubmitButton>Send Email</SubmitButton>
+            </UniversalForm>
         </ContactStyled>
     );
 }
