@@ -81,6 +81,9 @@ const Essays = () => {
                     <li><b>Production: </b>Live website for users to access -- public domain.</li>
                 </ul>
             </Essay>
+            <Essay q="S12: Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?">
+                <p>When we use it as a component or element to deliver some semantics, it is considered as part of HTML</p>
+            </Essay>
 
         </EssaysStyled>
     )
