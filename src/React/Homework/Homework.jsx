@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import SunAndMoon from "./SunAndMoon";
+import ControlledInput from "./ControlledInput";
 import Essays from "./Essays/Essays";
 
 const Homework = () => {
@@ -8,6 +9,7 @@ const Homework = () => {
         <HomeworkStyled>
             <h1>Homework</h1>
             <SunAndMoon />
+            <ControlledInput />
             <Essays />
         </HomeworkStyled>
     )
