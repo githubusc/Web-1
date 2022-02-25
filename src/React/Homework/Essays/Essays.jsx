@@ -83,6 +83,8 @@ const Essays = () => {
             </Essay>
             <Essay q="S12: Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?">
                 <p>When we use it as a component or element to deliver some semantics, it is considered as part of HTML</p>
+                <p>Printable is good in HTML, CSS by default is off -- as backgroudn image.</p>
+                <p>HTML if image is related to content.</p>
             </Essay>
 
         </EssaysStyled>

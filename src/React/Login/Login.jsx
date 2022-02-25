@@ -6,6 +6,8 @@ const Login = () => {
     return (
         <LoginStyled className='Login'>
             <h1>Login</h1>
+
+            <input />
         </LoginStyled>
     );
 }
