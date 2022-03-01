@@ -9,7 +9,7 @@ const Feedback = () => {
 
     const { state } = useContext(Context);
 
-    if (!state.feedback.show) { return '; '}
+    if (!state.feedback.show) { return ''; }
     
     const theClassName = classNames({
         'Feedback': true,
