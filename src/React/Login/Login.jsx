@@ -29,7 +29,7 @@ const Login = () => {
                     label='Password'
                     type='password'
                     id='password'
-                    rules={ ['required'] }
+                    rules={ ['required'] } 
                 />
                 <SubmitButton>Login</SubmitButton>
             </UniversalForm>
