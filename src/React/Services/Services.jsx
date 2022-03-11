@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
+import YouTube from 'react-youtube-embed'
 
 /* Components ---------------------------*/
 import ServiceGallery from './ServiceGallery/ServiceGallery.jsx';
@@ -12,9 +13,11 @@ const Services = () => {
 
     const [chosenCategory, chosenCategoryUpdate] = useState('All');
     console.log('chosenCategory', chosenCategory);
+    
     return (
         <ServicesStyled className='Services'>
             <h1>Services</h1>
+            <YouTube id='MsHJHmpAn8Y' />
             <ServiceMenu categories={ servicesData.categories } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate }/>
             <ServiceGallery services={ servicesData.services } chosenCategory={ chosenCategory }/>
         </ServicesStyled>
