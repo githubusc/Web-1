@@ -102,8 +102,15 @@ const Essays = () => {
                     <li><b>How do Styled Components violate separation of concerns? </b>Separation of concerns means: CSS for appearnce; JS for behavior; HTML for content.</li>
                 </ul>
             </Essay>
-            <Essay q="S15. Final Project Essays goes here.">
-                <p>Answer</p>
+            <Essay q="S16. What is the difference between Web Hosts, Domains, and FTP?">
+                <ul>
+                    <li><b>Web Hosts: </b>Service to host web files related to delivering your web applications.</li>
+                    <li><b>Domains: </b>Address mapped to a website/app - human friendly way to access the IP version of a website.</li>
+                    <li><b>FTP: </b>File Transfer Protocol: Used to move files from one system to a remote system. SFTP: Secure.</li>
+                </ul>
+            </Essay>
+            <Essay q="S17. What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?">
+                <p>A package manager or package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.</p>
             </Essay>
         </EssaysStyled>
     )
