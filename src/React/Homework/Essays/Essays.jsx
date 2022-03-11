@@ -102,6 +102,13 @@ const Essays = () => {
                     <li><b>How do Styled Components violate separation of concerns? </b>Separation of concerns means: CSS for appearnce; JS for behavior; HTML for content.</li>
                 </ul>
             </Essay>
+            <Essay q="S15. Final Project: Pick a Subject Matter">
+                <ul>
+                    <li><b>Client: </b>My Real Estate Agent and Broker Friends</li>
+                    <li><b>Purpose: </b>To showcase their current and previous property listings and their license and contact information.</li>
+                    <li><b>Why did you choose the subject: </b> Because I currently work in Real Estate industry and have seen a great need of those agents and brokers who need their own personal website to display their portfolios and to connect with their clients.</li>
+                </ul>
+            </Essay>
             <Essay q="S16. What is the difference between Web Hosts, Domains, and FTP?">
                 <ul>
                     <li><b>Web Hosts: </b>Service to host web files related to delivering your web applications.</li>
