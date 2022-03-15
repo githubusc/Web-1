@@ -117,7 +117,10 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay q="S17. What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?">
-                <p>A package manager or package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.</p>
+                <ul>
+                    <li><b>What is a Package Manager: </b>Keeps track of software versions installed, upgrade, or remove. Packages -- collections of files to install. Creates a set of dependencies.</li>
+                    <li><b>How does it play a role in software development? </b>Ensure all team members are using same dependencies. And control over versioning -- less likely to break apps.</li>
+                </ul>
             </Essay>
         </EssaysStyled>
     )
