@@ -11,15 +11,15 @@ import { servicesData } from './servicesData';
 
 const Services = () => {
 
-    const [chosenCategory, chosenCategoryUpdate] = useState('All');
-    console.log('chosenCategory', chosenCategory);
+    const [chosenLocation, chosenLocationUpdate] = useState('All');
+    console.log('chosenLocation', chosenLocation);
     
     return (
         <ServicesStyled className='Services'>
-            <h1>Services</h1>
-            <YouTube id='MsHJHmpAn8Y' />
-            <ServiceMenu categories={ servicesData.categories } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate }/>
-            <ServiceGallery services={ servicesData.services } chosenCategory={ chosenCategory }/>
+            <h1>Properties</h1>
+            <ServiceMenu locations={ servicesData.locations } chosenLocation={ chosenLocation } chosenLocationUpdate={ chosenLocationUpdate }/>
+            <ServiceGallery properties={ servicesData.properties } chosenLocation={ chosenLocation }/>
+            <YouTube id='FBWR89DBKSs' />
         </ServicesStyled>
     );
 }
@@ -27,5 +27,7 @@ const Services = () => {
 export default Services;
 
 const ServicesStyled = styled.div`
-    
+    Youtube {
+        display: flex;
+    }
 `;

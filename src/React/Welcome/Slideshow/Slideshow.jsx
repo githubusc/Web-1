@@ -29,6 +29,7 @@ export default Slideshow;
 
 const SlideshowStyled = styled.div`
     .carousel .slide .legend {
-        background-color: maroon;
+        background-color: #004e3b;
+        color: #e9ca7e;
     }
 `;

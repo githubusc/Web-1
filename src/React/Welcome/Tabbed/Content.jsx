@@ -21,8 +21,10 @@ export default Content;
 const ContentStyled = styled.div`
     display: flex;
     padding: 20px;
-    background-color: teal;
-
+    background-color: #004e3b;
+    h3 {
+        color: #e9ca7e;
+    }
     .left {
         font: 1;
         img {

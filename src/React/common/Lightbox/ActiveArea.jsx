@@ -16,5 +16,5 @@ const ActiveArea = ({activeContent, showModalUpdate}) => {
 export default ActiveArea;
 
 const ActiveAreaStyled = styled.div`
-    border: solid 5px purple;
+    //border: solid 5px purple;
 `;

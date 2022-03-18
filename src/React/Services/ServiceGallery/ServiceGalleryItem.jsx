@@ -6,13 +6,13 @@ import { defaultMediaQueries } from 'React/common/useMediaQuery';
 
 import Lightbox from 'React/common/Lightbox/Lightbox';
 
-const ServiceGalleryItem = ({service}) => {
+const ServiceGalleryItem = ({property}) => {
 
     const ActiveContent = () => {
         return (
             <>
-                <img src={ service.image } alt={ service.title } />
-                <h3>{ service.title } :: { service.category }</h3>
+                <img src={ property.image } alt={ property.title } />
+                <h3>{ property.title }</h3>
             </>
         );
     }
@@ -20,13 +20,13 @@ const ServiceGalleryItem = ({service}) => {
     const ModalContent = () => {
         return (
             <>
-                <img src={ service.image } alt={ service.title } />
+                <img src={ property.image } alt={ property.title } />
 
                 <ul>
-                    <li><b>Category: </b>{ service.category }</li>
-                    <li><b>Cost: </b>{ service.cost }</li>
+                    <li><b>Location: </b>{ property.location }</li>
+                    <li><b>Price: </b>{ property.cost }</li>
                 </ul>
-                <p>{ service.description }</p>
+                <p>{ property.description }</p>
             </>
         );
     }
@@ -34,7 +34,7 @@ const ServiceGalleryItem = ({service}) => {
     return (
         <ServiceGalleryItemStyled className='ServiceGalleryItem'>
             <Lightbox
-                title="Sun Pop Up"
+                title="Current Property"
                 activeContent={<ActiveContent />}
                 modalContent={<ModalContent />}
             />
@@ -64,14 +64,16 @@ const ServiceGalleryItemStyled = styled.div`
         }
 
         h3 {
-            background-color: rgba(0, 128, 128, 0.715);
+            background-color: rgba(211, 211, 211, 0.515);
+            color:white;
             margin: 0px;
             padding: 10px;
-            font-size: 14px;
+            font-size: 12px;
             position: absolute;
             left: 5px;
             right: 5px;
             bottom: 5px;
+            border-bottom: solid 5px #e9ca7e;
 
             @media ${defaultMediaQueries.mdUp} {
                 font-size: 16px;

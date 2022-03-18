@@ -4,17 +4,17 @@ import styled from 'styled-components';
 
 import ServiceGalleryItem from './ServiceGalleryItem.jsx';
 
-const ServiceGallery = ({services, chosenCategory}) => {
+const ServiceGallery = ({properties, chosenLocation}) => {
 
     return (
         <ServiceGalleryStyled className='ServiceGallery'>
             {
-                services
-                    .filter((service) => {
-                        return (chosenCategory === 'All' ||  service.category === chosenCategory);
+                properties
+                    .filter((property) => {
+                        return (chosenLocation === 'All' ||  property.location === chosenLocation);
                     })
-                    .map((service, idx) => {
-                        return <ServiceGalleryItem key={ idx } service={ service } />
+                    .map((property, idx) => {
+                        return <ServiceGalleryItem key={ idx } property={ property } />
                     })
             }
         </ServiceGalleryStyled>

@@ -5,8 +5,7 @@ const SiteTitle = () => {
 
     return (
         <SiteTitleStyled className='SiteTitle'>
-            <h2>Spa Sanctuary</h2>
-            <h3>A Spa For Every Occasion</h3>
+            <h2>The Beverly Hills Estates</h2>
         </SiteTitleStyled>
     );
 }
@@ -14,7 +13,7 @@ const SiteTitle = () => {
 export default SiteTitle;
 
 const SiteTitleStyled = styled.div`
-    color: #064c4c;
+    color: #e9ca7e;
     text-align: left;
 
     h2 {
@@ -25,5 +24,8 @@ const SiteTitleStyled = styled.div`
     h3 {
         margin: 0px;
         font-size: 20px;
+    }
+    img {
+        width: 100%;
     }
 `;

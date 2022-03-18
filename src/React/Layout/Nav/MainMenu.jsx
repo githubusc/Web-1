@@ -17,11 +17,11 @@ const MainMenu = ({showMenuUpdate}) => {
 
     return (
         <MainMenuStyled className='MainMenu'>
-            <NavLink onClick={ clickHandler } to={ '/' } exact>Welcome</NavLink>
-            <NavLink onClick={ clickHandler } to={ '/services' }>Services</NavLink>
-            <NavLink onClick={ clickHandler } to={ '/contact' }>Contact</NavLink>
-            <NavLink onClick={ clickHandler } to={ '/login' }>Login</NavLink>
-            <NavLink onClick={ clickHandler } to={ '/homework' }>Homework</NavLink>
+            <NavLink onClick={ clickHandler } to={ '/' } exact>Home</NavLink>
+            <NavLink onClick={ clickHandler } to={ '/services' }>Properties</NavLink>
+            <NavLink onClick={ clickHandler } to={ '/contact' }>Contact Us</NavLink>
+            <NavLink onClick={ clickHandler } to={ '/login' }>Agent Login</NavLink>
+            
         </MainMenuStyled>
     );
 }
@@ -36,24 +36,27 @@ const MainMenuStyled = styled.div`
         display: block;
         color: white;
         margin: 5px 0px;
-        background-color: #007373;
+        background-color: #004e3b;
         height: 50px;
         line-height: 55px;
         text-decoration: none;
         text-align: center;
 
-        // border-radius: 5px;
+        border-radius: 5px;
         
         text-transform: uppercase;
         font-weight: bold;
 
-        &:hover {
-            background-color: #038484;
+        &.hover {
+            background-color: #e9ca7e;
+            color: white;
         }
 
         &.active {
-            color: #007373;
-            background-color: #AEE6E6;
+            color: #e9ca7e;
+            text-decoration: underline;
+            text-decoration-thickness: 5px;
+            //background-color: #AEE6E6;
         }
 
     }
@@ -68,7 +71,7 @@ const MainMenuStyled = styled.div`
                         width: 150px;
                         margin: 0px 10px;
                         font-size: 16px;
-                        border-radius: 5px;
+                        border-radius: 0px;
 
                     }
     }

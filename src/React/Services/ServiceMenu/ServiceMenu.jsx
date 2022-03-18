@@ -3,13 +3,13 @@ import styled from 'styled-components';
 
 import ServiceMenuItem from './ServiceMenuItem.jsx';
 
-const ServiceMenu = ({categories, chosenCategory, chosenCategoryUpdate}) => {
+const ServiceMenu = ({locations, chosenLocation, chosenLocationUpdate}) => {
 
     return (
         <ServiceMenuStyled className='ServiceMenu'>
             {
-                categories.map((category, idx) => {
-                    return <ServiceMenuItem key={ idx } category={ category } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate }/>
+                locations.map((location, idx) => {
+                    return <ServiceMenuItem key={ idx } location={ location } chosenLocation={ chosenLocation } chosenLocationUpdate={ chosenLocationUpdate }/>
                 })
             }
         </ServiceMenuStyled>

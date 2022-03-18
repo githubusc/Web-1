@@ -1,18 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
+//<FontAwesomeIcon icon={ faHotTub } />
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { 
-    faHotTub,
-} from '@fortawesome/free-solid-svg-icons';
-<FontAwesomeIcon icon={ faHotTub } />
 
 const SiteLogo = () => {
 
     return (
         <SiteLogoStyled className='SiteLogo'>
-            <FontAwesomeIcon icon={ faHotTub } className='hot-tub-icon'/> 
+            <FontAwesomeIcon icon="fa-thin fa-city" className='hot-tub-icon'/>
         </SiteLogoStyled>
+        
     );
 }
 

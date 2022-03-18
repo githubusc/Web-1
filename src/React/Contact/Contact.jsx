@@ -12,7 +12,6 @@ const Contact = () => {
     }
     return (
         <ContactStyled className='Contact'>
-            <h1>Contact</h1>
             <UniversalForm
                 apiUrl='/email/send'
                 onSubmit={ onSubmitHandler }
@@ -26,13 +25,13 @@ const Contact = () => {
                 <Input 
                     label='Email'
                     id='email'
-                    placeholder='username@email.com'
+                    placeholder='username@thebeverlyhillsestate.com'
                     rules={ ['required', 'email'] }
                 />
                 <Textarea
                     label='Message'
                     id='message'
-                    placeholder='I was wondering about...'
+                    placeholder='I am intested in the property located at ...'
                     rules={ ['required'] }
                 />
                 <SubmitButton>Send Email</SubmitButton>

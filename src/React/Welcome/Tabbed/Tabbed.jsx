@@ -11,7 +11,7 @@ const Tabbed = () => {
     const [chosenTab, chosenTabUpdate] = useState(tabbedData[0]);
     return (
         <TabbedStyled className='Tabbed'>
-            Tabbed 
+            <h1>About Us</h1>
             <TabbedMenu chosenTab={ chosenTab } chosenTabUpdate={ chosenTabUpdate } tabbedData={ tabbedData }/>
             <Content chosenTab={ chosenTab }/>
         </TabbedStyled>

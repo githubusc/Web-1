@@ -13,7 +13,7 @@ const StaffMember = ({member}) => {
         return (
             <>
                 <img src={ member.image } alt={ member.name } />
-                <h3>{ member.name }</h3>
+                <h4>{ member.name }</h4>
             </>
         )
         
@@ -55,10 +55,11 @@ const StaffMemberStyled = styled.div`
         display: block;
     }
 
-    h3 {
+    h4 {
         color: white;
-        background-color: maroon;
+        background-color: black;
         margin: 0px;
         padding: 5px 10px;
+        
     }
 `;

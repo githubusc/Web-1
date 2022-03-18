@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <HeaderStyled className='Header'>
             <div className='row'>
-                <Logo />
+                
                 <SiteTitle />
             </div>
             
@@ -20,7 +20,7 @@ const Header = () => {
 export default Header;
 
 const HeaderStyled = styled.header`
-    background-color: teal;
+    background-color: #004e3b;
     padding: 20px 0px;
     display: flex;
     justify-content: center;

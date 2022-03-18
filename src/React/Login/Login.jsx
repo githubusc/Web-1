@@ -13,7 +13,6 @@ const Login = () => {
 
     return (
         <LoginStyled className='Login'>
-            <h1>Login</h1>
             <UniversalForm
                 apiUrl='/user/login'
                 onSubmit={ onSubmitHandler }
@@ -22,7 +21,7 @@ const Login = () => {
                     label='Username'
                     id='username'
                     type='text'
-                    placeholder='user@domain.com'
+                    placeholder='user@thebeverlyhillsestates.com'
                     rules={ ['required', 'email'] }
                 />
                 <Input
@@ -31,7 +30,7 @@ const Login = () => {
                     id='password'
                     rules={ ['required'] } 
                 />
-                <SubmitButton>Login</SubmitButton>
+                <SubmitButton className='myButton'>Login</SubmitButton>
             </UniversalForm>
         </LoginStyled>
     );
@@ -40,5 +39,7 @@ const Login = () => {
 export default Login;
 
 const LoginStyled = styled.div`
-    
+    .myButton {
+        color: black;
+    }
 `;

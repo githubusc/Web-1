@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import YouTube from 'react-youtube-embed'
 
 import Slideshow from './Slideshow/Slideshow.jsx';
 import Staff from './Staff/Staff.jsx';
@@ -8,10 +9,11 @@ const Welcome = () => {
 
     return (
         <WelcomeStyled className='Welcome'>
-            <h1>Welcome</h1>
+            <h1>Featured Properties</h1>
             <Slideshow />
             <Tabbed />
             <Staff />
+            
         </WelcomeStyled>
     );
 }

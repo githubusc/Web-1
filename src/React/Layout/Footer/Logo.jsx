@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { logoData } from '../Header/logoData';
 import SiteLogo from 'React/common/SiteLogo';
-const Logo = () => {
+const Logo = ({logo}) => {
 
     return (
         <LogoStyled className='Logo'>

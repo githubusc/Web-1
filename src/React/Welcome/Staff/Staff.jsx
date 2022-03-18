@@ -12,7 +12,7 @@ const Staff = () => {
     return (
 
         <StaffStyled className='Staff'>
-            <h3>Staff</h3>
+            <h3>Agents</h3>
             <div className="wrapper">
                 {
                     staffData.map((member, idx) => {
@@ -30,10 +30,12 @@ export default Staff;
 
 
 const StaffStyled = styled.div`
-    background-color: teal;
+    background-color: #004e3b;
     padding: 20px;
     margin: 20px 0px;
-    
+    h3 {
+        color: #e9ca3e;
+    }
     .wrapper {
         display: flex;
         justify-content: center;
